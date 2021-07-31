@@ -9,7 +9,7 @@ var block_object="";
 
 
 function player_update(){
-    fabric.Image.fromURL("player.webp",function (Img){
+    fabric.Image.fromURL("player.png",function (Img){
         player_object=Img;
          player_object.scaleToWidth(150);
           player_object.scaleToHeight(140);
